@@ -1,0 +1,33 @@
+f = open("subhakant.txt","r")
+coment=f.read()
+print(coment)
+Hii, everyone how are you?
+Myself Subhakant Bhokta, I am 19 year old boy.
+[2]
+f.close()
+[3]
+0s
+f = open("subhakant.txt","w")
+coment=f.write('this is written by user\n')
+print(coment)
+24
+[6]
+0s
+f = open("subhakant.txt","r")
+coment=f.read()
+print(coment)
+this is written by user
+
+[7]
+0s
+f = open("subhakant.txt","a")
+coment=f.write("this is under cctv camera!")
+print(coment)
+26
+[9]
+0s
+f = open("subhakant.txt","r")
+coment=f.read()
+print(coment)
+this is written by user
+this is under cctv camera!
